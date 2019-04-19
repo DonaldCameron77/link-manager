@@ -1,0 +1,21 @@
+link-manager stores links with (potentially) multiple attached tags on a
+per-user basis.  This service supports a web front end (in a separate repo ...
+implementation has yet to begin as of mid-April 2019).
+
+There will be an associated web front end which communicates with the
+link-manager service.  Once logged in, the user will see the most recently
+stored links with their titles, descriptions, and tags (if any).  Clicking a
+link entry will cause the link target to be loaded.
+
+Unlike Instapaper and Pocket, the material from the link page will not be
+edited or scrubbed of ads or other distractions. And unlike delicio.us,
+there will not be social features (at least not at first release) - each
+user has a private set of links and tags.
+
+If the user searches for links by tag(s), then the list of links displayed will
+be filtered on the basis of matching tags.  These can be sorted by
+most-recently-saved, by date associated with the page, and possibly other
+criteria.
+
+---
+
